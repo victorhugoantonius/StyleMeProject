@@ -1,0 +1,65 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+    font-family: sans-serif;
+}
+/* body{
+    background-color:salmon;
+
+} */
+.product-card {
+    height: 400px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.card-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    background-size: auto;
+    object-fit: fill;
+}
+
+.info {
+    height: 70px;
+    width: 310px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(27, 27, 27, 0.5);
+    color: white;
+    bottom: 195px;
+}
+
+h4 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.product-card:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.product-card:hover .info {
+    height: 300px;
+    bottom: 195px;
+    background: black;
+}
+
+.product-card:hover .hidden {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* .product-card:hover .card-image{
+   transform: scale(1.1) rotate(-5deg);
+  }
+   */
