@@ -1,15 +1,17 @@
-<!-- README project
+## README project
 
-download project dari github
-bentuk file yang didownload akan berupa zip
-lakukan extract
-pastikan kalian sudah menginstall laravel versi ke 8 dan juga composer, serta XAMPP 
-nyalakan Apache dan MySQL pada XAMPP
-buka project pada code editor kalian
-buka terminal, lalu ketikan php artisan serve, tekan enter
-akan muncul link untuk menjalankan project, ctrk + click pada link tersebut untuk membuka project
-jangan lupa untuk membuat database pada MySQL dengan nama styleme, lalu ketikan php arisan migrate:fresh --seed pada terminal kalian
-untuk membuat tabel-tabel dan sekaligus mengisi datanya untuk ditampilkan pada web -->
+#download project dari github
+#bentuk file yang didownload akan berupa zip
+#lakukan extract
+#pastikan kalian sudah menginstall laravel versi ke 8 dan juga composer, serta XAMPP 
+#nyalakan Apache dan MySQL pada XAMPP
+#buka project pada code editor kalian
+#buka terminal, lalu ketikan php artisan serve, tekan enter
+#akan muncul link untuk menjalankan project, ctrk + click pada link tersebut untuk membuka project
+#jangan lupa untuk membuat database pada MySQL dengan nama styleme, lalu ketikan php arisan migrate:fresh --seed pada terminal kalian
+#untuk membuat tabel-tabel dan sekaligus mengisi datanya untuk ditampilkan pada web 
+
+
 
 
 
